@@ -1,0 +1,210 @@
+/* .login-background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://c.ndtvimg.com/2022-11/2c92b5t_grocery-store_625x300_14_November_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350?im=FaceCrop,algorithm=dnn,width=1200,height=886') no-repeat center center/cover;
+    background-size: r;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.15); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px); 
+    width: 100%;
+    max-width: 400px; 
+}
+
+
+.login-form h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+
+.input-custom {
+    border-radius: 30px;
+    padding-right: 45px; 
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 45px;
+    font-size: 16px;
+    color: white;
+}
+
+
+.input-icon {
+    position: absolute;
+    top: 70%;
+    right: 15px; 
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.6);
+    pointer-events: none; 
+}
+
+
+.btn-block {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-block:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
+.forgot-password {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.register-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+
+.form-group input[type="checkbox"] + label {
+    color: white;
+    font-size: 14px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+} */
+
+/* Fullscreen background */
+.login-background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://c.ndtvimg.com/2022-11/2c92b5t_grocery-store_625x300_14_November_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350?im=FaceCrop,algorithm=dnn,width=1200,height=886') no-repeat center center/cover;
+}
+
+/* Container for login form */
+.login-container {
+    background: rgba(255, 255, 255, 0.15); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px); 
+    width: 100%;
+    max-width: 400px; 
+}
+
+/* Heading style */
+.login-form h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Form group style */
+.form-group {
+    margin-bottom: 20px;
+    position: relative; /* Make parent relative for icon placement */
+}
+
+/* Input fields with custom design */
+.input-custom {
+    border-radius: 30px;
+    padding-right: 45px; /* Adjusted for icon on the right */
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 60px; /* Increased height */
+    font-size: 16px;
+    color: black; /* Changed color to black for better readability */
+    width: 100%; /* Ensures full width */
+}
+
+/* Icons positioned on the right side */
+.input-icon {
+    position: absolute;
+    top: 70%;
+    right: 15px; 
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.6);
+    pointer-events: none; 
+}
+
+/* Button styling */
+.btn-block {
+    background-color: #007bff; /* Change to desired color */
+    border-radius: 30px;
+    color: white; /* Changed text color to white */
+    font-weight: bold;
+    padding: 15px 0; /* Increased padding for larger button */
+    font-size: 1.2rem; /* Increased font size */
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ensure button takes full width */
+}
+
+.btn-block:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    color: white; /* Ensure text stays white */
+}
+
+/* Forgot password link styling */
+.forgot-password {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Register link styling */
+.register-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox and label alignment */
+.form-group input[type="checkbox"] + label {
+    color: white;
+    font-size: 14px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}

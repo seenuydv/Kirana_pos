@@ -1,0 +1,58 @@
+.Sidebar {
+  transition: width 0.3s ease-in-out;
+  background-color: #1e262b;
+  position: relative;
+}
+
+.Sidebar-heading {
+  margin: 0;
+  /* padding: 20px; */
+  background-color: #37474f;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  transition: display 0.3s ease-in-out;
+}
+
+.Sidebar-open {
+  width: 230px;
+  height: 100vh;
+}
+
+.Sidebar-close {
+  width: 80px;
+  height: 100vh;
+}
+
+.Sidebar-toggleButton {
+  position: absolute;
+  top: 15px; 
+  left: 95%;
+  transform: translateX(-50%); 
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Sidebar-items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.SidebarItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SidebarItem:hover {
+  background-color: #455a64;
+}
+
+.SidebarItem span {
+  margin-left: 10px;
+}
